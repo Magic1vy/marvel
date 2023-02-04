@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(10, 10, 48);
+    background-image: url("./attachment/cosmos.jpeg");
+    background-size: cover;
+background-attachment: fixed;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+}
+.inputField{
+    display: flex;
+}
+#search{
+    flex: 1;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 7px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.tv-shows{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 20px;
+}
+a{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+
+} 
